@@ -3,8 +3,8 @@ import * as React from "react";
 interface IAppProps {
   arr: number[];
 }
-export default function Box({ id, arr }: IAppProps) {
-  console.log(arr, id, "???");
+export default function Box({ arr }: IAppProps) {
+  console.log(arr, "???");
   return (
     <div
       style={{

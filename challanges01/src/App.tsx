@@ -50,9 +50,9 @@ function App() {
       <button onClick={() => submitAnswer(count)}>Submit</button>
       {/* <Box arr={arr} /> */}
 
-      {[...Array(count)].map((value: undefined, index: number) => (
+      {/* {[...Array(count)].map((value: undefined, index: number) => (
         <Box id={index + 1} key={index} />
-      ))}
+      ))} */}
     </div>
   );
 }
